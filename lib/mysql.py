@@ -20,14 +20,14 @@ class MysqlPython(object):
     __connection = None
 
        
-    ''' disable for multi connection
+    #disable ì for multi connection
     def __new__(cls, *args, **kwargs):
         if not cls.__instance:
             #cls.__instance = super(MysqlPython, cls).__new__(cls,*args,**kwargs)   #python 2
             cls.__instance = super(MysqlPython, cls).__new__(cls)  #python 3
         return cls.__instance
     #end __new__
-    '''
+    
     def __init__(self, host='localhost', port=3306, user='root', password='', database=''):
         self.__host = host
         self.__post = port
