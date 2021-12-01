@@ -1,0 +1,5 @@
+#python 3.6+
+Flask
+Flask-API
+PyMySQL
+waitress #in windows: pip install waitress, #waitress in lunix: sudo apt-get install -y python-waitress
