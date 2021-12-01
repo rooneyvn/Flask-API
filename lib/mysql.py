@@ -20,7 +20,7 @@ class MysqlPython(object):
     __connection = None
 
        
-    #disable ì for multi connection
+    #disable if for multi connection
     def __new__(cls, *args, **kwargs):
         if not cls.__instance:
             #cls.__instance = super(MysqlPython, cls).__new__(cls,*args,**kwargs)   #python 2
