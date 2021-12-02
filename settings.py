@@ -8,7 +8,7 @@ TESTING = False
 DEBUG = True
 LOG_FOLDER = 'logs'
 
-# recommendation_systems mysql database
+#mysql database
 DB_HOST = 'localhost'
 DB_USERNAME = 'root'
 DB_PASSWORD = ''
